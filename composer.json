@@ -1,0 +1,27 @@
+{
+    "name": "ayham/like",
+    "description": "Like - A simple laravel package to add likes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ayham\\Like\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayham Ibrahim",
+            "email": "ayhamfacebook1999@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": "Ayham\\Like\\Provider\\LikeServiceProvider"
+        }
+    }
+}
