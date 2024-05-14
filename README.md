@@ -21,7 +21,7 @@ php artisan migrate
 
 As with most Laravel packages, if you're using Laravel 5.5 or later, the package will be auto-discovered ([learn more if this is new to you](https://medium.com/@taylorotwell/package-auto-discovery-in-laravel-5-5-ea9e3ab20518)).
 
-If you're using a version of Laravel before 5.5, you'll need to register the Rateable *service provider*. In your `config/app.php` add `Devyousef\Visitor\Providers\VisitorServiceProvider` to the end of the `$providers` array.
+If you're using a version of Laravel before 5.5, you'll need to register the Rateable *service provider*. In your `config/app.php` add `    Ayham\Like\Provider\LikeServiceProvider::class` to the end of the `$providers` array.
 
 ````php
 'providers' => [
